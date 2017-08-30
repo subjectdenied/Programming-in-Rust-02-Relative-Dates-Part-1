@@ -54,6 +54,7 @@ fn main() {
     }   
 }
 
+// needed for static lifetime of Argmatches struct
 fn parse_args<'a>() -> ArgMatches<'a> {
     // todo args need ranges
     App::new("reldate")
