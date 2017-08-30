@@ -1,0 +1,11 @@
+[package]
+name = "reldate"
+version = "0.0.1"
+authors = ["Christian Sigl <subjectdenied@gmail.com>"]
+
+[dependencies]
+chrono = "*"
+rustc-serialize = "*"
+
+[dependencies.clap]
+git = "https://github.com/kbknapp/clap-rs"
